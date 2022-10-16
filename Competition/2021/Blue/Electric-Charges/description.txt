@@ -1,0 +1,22 @@
+
+1. Electric Charges
+
+In this problem you need to calculate the total amount of an electric bill. Given an integer value representing the number of kilowatt hours used, calculate the total amount owed using the following rates:
+
+7.633 cents for the first 1000 hours used
+9.259 cents for any hours used over 1000 hours.
+Input
+
+Prompt for the input as shown below. Enter an integer greater than zero representing the kilowatt hours used. Data will be entered from console. You do not need to edit the input data. Rerun your application to test each test case.
+Output
+
+A decimal value representing the total amount owed in dollars. Although the results in the test data below show multiple decimal positions, your answers will only be checked to two decimal positions.
+Test Data
+
+Input	                        Output
+Enter the KW hours used: 1500	Amount owed is $122.625
+Enter the KW hours used: 764    Amounted owed is $58.31612
+Enter the KW hours used: 1215   Amounted owed is $96.23685
+Enter the KW hours used: 812	Amounted owed is $61.97996
+
+Find info at https://www.seminolestate.edu/computers/competition/samples/2021

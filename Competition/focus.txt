@@ -1,0 +1,48 @@
+Intercollegiate Programming Competition:
+
+Date:
+	Some time in 2023.
+
+Registration:
+	Register before the last Wednesday before the competition. IT IS FREE AND DONE ONLINE!!!!
+
+Requirements:
+	Valencia College Student with at least 6 credits hours completed and enrolled in at least one class 
+	at the time of the competition.
+
+Languages:
+	Java
+	C++
+	Python
+	C#
+	C
+Tracks:
+	Blue -> Beginner level -> NO MONEY PRIZE
+	Gold -> Advanced level -> MONEY PRIZE
+
+Problems:
+	Requirements will be given to solve each challenge.
+	Input test data is provided.
+	Expected output is provided.
+	SUCCESSFUL GENERATION OF OUTPUT IS NO GUARANTEE THAT THE PROBLEM WILL BE COUNTED AS SOLVED
+	Judges may provide more input test data to verify the veracity of the challenge to be solved.
+
+Solutions:
+	GUIs allowed but not required.
+	CLis that take input from STDIn and return output to STDOUT are preferable.
+	Problems are logic based.
+	No need of:
+		APIs
+		Database access
+		Reading/Writing to files
+		Server communication
+		Exception logic to handle errors.
+
+Help Systems:
+	IDEs and Oracle Docs for Java are allowed.
+	INTERNET, EMAIL, INSTANT MESSAGING, CELL PHONES AND OTHERS ARE PROHIBITED AND RESULT IN DISQUALIFICATION!!
+
+Materials:
+	A booklet with the programming problems will be given. 
+	Use blank sheets to take notes. 
+
