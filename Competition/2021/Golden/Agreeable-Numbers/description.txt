@@ -1,0 +1,21 @@
+In this problem, agreeable numbers are two different numbers where the sum of the divisors of one number are equal to the other number. 
+Given two numbers X and Y, the divisors of X sum to Y and the divisors of Y sum to X. 
+A divisor of a number is a positive factor of that number other than the number itself. 
+In other words, a number N is a divisor of X, if dividing X by N leaves no reminder. 
+The smallest pair of agreeable numbers is (220, 284). 
+They are agreeable because the divisors of 220 are 1, 2, 4, 5, 10, 11, 20, 22, 44, 55 and 110, which sum to 284 and the divisors of 284 are 1, 2, 4, 71 and 142, which sum to 220.
+You will be given two integer numbers and must determine if these are agreeable numbers.
+
+Input									Output
+
+Enter two numbers separated by a space:				 Agreeable numbers
+220 284	
+Enter two numbers separated by a space:				Not agreeable numbers
+8023 2987	
+Enter two numbers separated by a space:				Agreeable numbers
+17296 18416	
+Enter two numbers separated by a space:				Not agreeable numbers
+4523 4912
+	
+Enter two numbers separated by a space:				Agreeable numbers
+2620 2924
