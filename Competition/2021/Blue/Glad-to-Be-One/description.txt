@@ -1,0 +1,17 @@
+The Glad to be One number sequence are those whose sequence ends in a one. 
+Numbers that are not “glad” are those that infinitely repeat a sequence of numbers but never reach the number one. 
+For this problem you must determine if a number is a glad number or not. 
+For a given positive integer N, the next number in the sequence will be the sum of the squares of its digits. 
+Continue to generate numbers in the sequence until the sequence reaches one or the sequence begins to repeat itself. 
+The original input is a glad number if the sequence reaches one. The original input is not a glad number if the sequence starts to repeat itself without reaching one. 
+
+Sample Data:
+
+Input	                                Output
+Enter a positive integer:  49	        Glad Number
+Enter a positive integer:  11           Not a Glad Number
+Enter a positive integer:  97           Glad Number
+Enter a positive integer:  1234         Not a Glad Number
+
+Check example solution at:
+https://www.seminolestate.edu/computers/competition/samples/2021

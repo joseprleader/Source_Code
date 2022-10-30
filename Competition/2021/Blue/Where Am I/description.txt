@@ -10,7 +10,7 @@ Output the quadrant number (1, 2, 3 or 4) for the point. Use the format shown be
 
 Test Data
 Input                                           Output
-Enter X and Y separated by a space: 45 90	    Q 1
+Enter X and Y separated by a space: 45 90	Q 1
 Enter X and Y separated by a space: -10 -95     Q 3
 Enter X and Y separated by a space: -40 50      Q 2
 Enter X and Y separated by a space: 88 -67      Q 4

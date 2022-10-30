@@ -1,0 +1,27 @@
+In this problem you’ll be given the length of two sides of a right triangle and need to calculate the name and length of the third side. 
+The two given sides can change. 
+In other words, the same two sides are not always provided. 
+Review the right triangle below.
+
+The right triangle has sides AB, BC, and AC.
+ Side AC is always the hypotenuse. 
+ Assume you are given the following input: AB is 3, BC is 4. 
+ Your application must identify the missing side as AC and the length as 5.
+
+ SAMPLE DATA:
+
+ Input	                                Output
+Enter first segment: AB                 AC 5
+Enter first length: 3
+Enter second segment: BC
+Enter second length: 4	
+
+Enter first segment: AC                 BC 882
+Enter first length: 891
+Enter second segment: AB
+Enter second length: 125
+
+Enter first segment: BC                 AB 9812
+Enter first length: 1923
+Enter second segment: AC
+Enter second length: 9999	

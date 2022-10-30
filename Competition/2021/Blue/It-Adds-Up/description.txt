@@ -1,0 +1,22 @@
+In this problem you will be given a target number and a list of numbers to search. 
+You will need to identify all pairs of numbers that sum to the target number. 
+For example, given the target number of 6 and the list of 16, 11, 2, 8, 6, 7, 4, 33, -2, the pairs (2, 4) and (8, -2) sum to 6. 
+In addition to listing the pairs that sum to the target number, you will need to list their position in the original list.
+The pair (2, 4) was located at 3 and 7. The pair (8, -2) was located at 4 and 9.
+
+SAMPLE DATA:
+Input	                                                            Output
+Enter the desired sum, number of elements, each element:            (2, 4) found at [3] [7]
+6 9 16 11 2 8 6 7 4 33 -2	                                        (8, -2) found at [4] [9]
+                                                                    
+Enter the desired sum, number of elements, each element:            (8, 5) found at [1] [2]
+13 11 8 5 4 3 7 12 6 1 19 -4 17                                     (7, 6) found at [5] [7]
+                                                                    (12, 1) found at [6] [8]
+                                                                    (-4, 17) found at [10] [11]
+
+Enter the desired sum, number of elements, each element:             No pairs found
+33 6 1 14 99 23 18 6
+
+Enter the desired sum, number of elements, each element:             (24, 0) found at [3] [7]
+24 10 13 12 24 19 6 5 0 27 -3 7	                                     (19, 5) found at [4] [6]
+                                                                     (27, -3) found at [8] [9]

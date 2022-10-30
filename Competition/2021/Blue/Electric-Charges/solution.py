@@ -45,7 +45,7 @@ def total_bill(hours):
     else:
         bill = hours * rate_before_1000
     
-    # round() function is used to round decimal numbers. In this case to two decimal places
+    # round_ip() function is used to round decimal numbers. In this case to two decimal places
     return round_up(bill,2)
 
 # Do not execute the code 

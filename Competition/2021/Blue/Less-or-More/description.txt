@@ -1,0 +1,20 @@
+In this problem you must examine a list of numbers and determine how many times a number in the list has a lower number to its “right”. 
+For example, in the list 3, 9, 4, 6, 7, 5, there are 3 cases where a number in the list has at least one lower number to the right. 
+The number 9 has the number 4 to its right. The number 6 has the number 5 to its right. 
+The number 7 has the number 5 to its right.
+
+Challenge description link:
+https://www.seminolestate.edu/computers/competition/samples/2021
+
+Sample data:
+
+Input	                                                      Output
+Enter count, integers separated by a space:
+6 28 7 6 21 88 89                                             2
+Enter count, integers separated by a space:
+10 13 99 4 18 44 87 109 201 22 1
+	                                                          9
+Enter count, integers separated by a space:
+5 13 22 77 83 91	                                          0
+Enter count, integers separated by a space:
+7 85 74 32 21 20 16 2	                                      6
