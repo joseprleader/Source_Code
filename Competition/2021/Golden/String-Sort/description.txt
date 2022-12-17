@@ -1,0 +1,27 @@
+In this problem you will need to sort a list of words based on their length. 
+The shortest word must be first and the longest word must be last. 
+Words of the same length may be in any order within that length.
+Given the list of words: fourteen, forty, thirty, one, three, the sorted list will be: one, forty, three, thirty, fourteen.
+
+Sample Data:
+
+INPUT                                       OUTPUT
+Enter count of words: 5                     one forty three thirty fourteen
+Enter next word: fourteen
+Enter next word: forty
+Enter next word: thirty
+Enter next word: one
+Enter next word: three
+
+Enter count of words: 3                     eon century millennium
+Enter next word: century
+Enter next word: millennium
+Enter next word: eon
+
+Enter count of words: 6                     hawks ravens chiefs raiders steelers buccaneers
+Enter next word: ravens
+Enter next word: chiefs
+Enter next word: steelers
+Enter next word: raiders
+Enter next word: buccaneers
+Enter next word: hawks
