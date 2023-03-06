@@ -1,0 +1,45 @@
+Number Frequency
+
+In this problem you are given a list of positive integer values between 1 and 100 inclusive. 
+Determine how many times each value is entered. 
+Display each number entered and how many times it was entered. 
+Read each number from the console. Display the output on the monitor. 
+Run your application once for each set of test data. 
+
+Input
+
+Prompt the user as shown in the sample input below. 
+Then enter some number of positive integers between 1 and 100. 
+Any number of values can be entered. Each will be separated by a space. 
+At least one non-zero number will be entered. 
+The last integer in the list will be a zero indicating the end of the data. 
+The zero is NOT part of the list. Read each number from the console.
+
+Output
+
+A listing of each number entered and how many times that number was entered. 
+The output must be in order from the lowest number entered to the highest number entered. 
+You must correctly use the words “times” and “time” as shown in the sample output below. 
+Display the output on the monitor. See the sample output below.
+
+Test Data
+Input	                                                Output
+Enter your numbers separated by a space
+44 44 78 44 100 1 1 1 100 44 55 0	                    1 occurs 3 times
+                                                        44 occurs 4 times
+                                                        55 occurs 1 time
+                                                        78 occurs 1 time
+                                                        100 occurs 2 times
+
+Enter your numbers separated by a space                 44 occurs 1 time
+44 0
+
+Enter your numbers separated by a space
+99 1 19 1 22 100 22 33 99 22 65 34 33 22 100 99 0       1 occurs 2 times
+                                                        19 occurs 1 time
+                                                        22 occurs 4 times
+                                                        33 occurs 2 times
+                                                        34 occurs 1 time
+                                                        65 occurs 1 time
+                                                        99 occurs 3 times
+                                                        100 occurs 2 times

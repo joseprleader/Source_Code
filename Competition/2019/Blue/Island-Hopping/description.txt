@@ -1,0 +1,48 @@
+Island Hopping
+
+A list of integers is used to represent the “jumping distance” between islands. 
+Use these numbers to determine if you can “jump” from one island to the next and land exactly on the last island. 
+For example, given the list:
+
+3 1 0 1 3
+
+The first entry always represents the starting point. 
+From the starting point you can jump 3 islands. 
+This will take you to the island represented by the number 1. 
+From that island you can jump 1 position to the last island. 
+This represents success.
+
+Now consider a list like:
+
+4 3 2 1 0 2 3
+
+Again, you would start on the first island (4) and could jump 4 islands to the island represented by 0.
+From this island you can’t jump any further so the last island cannot be reached. 
+This represents failure. 
+It is also a failure if your “jump” would take you past the last island.
+
+Input
+
+The first integer (N) is the number of integers to follow. 
+The first integer is NOT part of the “jumping” data. 
+After the first integer, N number of integers will follow.
+Each integer will be greater than or equal to zero.
+Read all the data from the console. 
+
+Output
+
+“Success” if the last “island” can be reached without going past the end of the list. 
+“Failure” if the last island cannot be reached. Display the output on the monitor.
+
+Test Data
+
+Input                                                                           Output
+
+Enter number of islands followed by each jump value                             Failure
+6 3 2 1 0 2 3
+
+Enter number of islands followed by each jump value                             Success
+5 3 1 0 1 3
+
+Enter number of islands followed by each jump value                             Success
+11 2 0 1 4 1 2 3 3 0 1 1

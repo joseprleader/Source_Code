@@ -1,0 +1,27 @@
+Sentence Maker
+
+Link: https://www.seminolestate.edu/computers/competition/samples/2019
+
+In this problem you are given a list of characters followed by a sentence. 
+You must determine if the sentence can be formed using only the letters from the first list. 
+Each letter in the first list can only be used once. There will be no punctuation in either list. 
+For example, given the list “friend icing on the sung” can the sentence “coding is fun” be formed? The answer is yes. 
+However, given the list “please bake umpteen cookies” you can’t form the sentence “bugs are problems”. 
+
+Input 
+
+Two strings with each string having at least one character. 
+The second string may be longer, shorter, or the same length as the first string. 
+All letters input will be lowercase. Read all the data from the console. 
+Output
+
+Display the word “possible” if the second string can be created using the letters contained in the first string. 
+Display the word “not possible” if the second string can’t be created using the letters contained in the first string. 
+Display the output on the monitor. 
+
+Test Data
+Input	                                                    Output
+Enter the list of letters:                                  possible
+apples are pretty lucky honey
+Enter the sentence to be formed:
+pay the purple one	
