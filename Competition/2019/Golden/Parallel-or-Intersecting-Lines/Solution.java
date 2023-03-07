@@ -17,37 +17,45 @@ public class Solution
 
         myScanner.close();
 
-        /*
-        
-        GraphLine line1 = new GraphLine(coors1.get(0), coors1.get(1), coors1.get(2), coors1.get(3));
-        GraphLine line2 = new GraphLine(coors2.get(0), coors2.get(1), coors2.get(2), coors2.get(3));
-        
-        boolean oneVertical = line1.getLineType().equals("Vertical") || line2.getLineType().equals("Vertical");
-        boolean bothVertical = line1.getLineType().equals("Vertical") && line2.getLineType().equals("Vertical");
+        printLinesIntersect(coors1, coors2);
 
-        if (oneVertical && !bothVertical)
-        {
-            System.out.println("intersecting - one vertical");
-        }
+    }
 
-        else if (oneVertical && bothVertical)
+    public static void printLinesIntersect(ArrayList<Double> coors1, ArrayList<Double> coors2)
+    {
+        // Get the slope of each line
+        double slope1 = (coors1.get(3) - coors1.get(1)) / (coors1.get(2) - coors1.get(0));
+        double slope2 = (coors2.get(3) - coors2.get(1)) / (coors2.get(2) - coors2.get(0));
+
+        // Get boolean variables to check if one line is vertical or both lines are vertical
+        boolean oneVertical = (slope1 == Double.POSITIVE_INFINITY || slope1 == Double.NEGATIVE_INFINITY) || (slope2 == Double.POSITIVE_INFINITY || slope2 == Double.NEGATIVE_INFINITY);
+        boolean bothVertical = (slope1 == Double.POSITIVE_INFINITY || slope1 == Double.NEGATIVE_INFINITY) && (slope2 == Double.POSITIVE_INFINITY || slope2 == Double.NEGATIVE_INFINITY);
+
+        // if both lines are vertical then print they're parallel - vertical
+        if (bothVertical)
         {
             System.out.println("parallel - both vertical");
         }
 
+        // if one line is vertical but the other is
+        else if (oneVertical && !bothVertical)
+        {
+            System.out.println("intersecting - one vertical");
+        }
+
+        // otherwise both lines are inclined
         else
         {
-            if (line1.getSlope() != line2.getSlope())
+            if (slope1 == slope2)
             {
-                System.out.println("intersecting");
+                System.out.println("parallel");
             }
 
             else
             {
-                System.out.println("parallel");
+                System.out.println("intersecting");
             }
-        }*/
-
+        }
     }
 
     public static ArrayList<Double> getIntListFromStr(String numsStrForm)
